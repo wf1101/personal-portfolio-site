@@ -1,0 +1,60 @@
+.header-nav > .nav > .nav-list > .portfolio {
+  color: rgb(135, 219, 166)
+}
+
+.story > .change-button:hover {
+  background: url("https://images.pexels.com/photos/7095/people-coffee-notes-tea.jpg?w=1260&h=750&auto=compress&cs=tinysrgb")
+}
+
+.story {
+  height: 500px;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/03/62/11/3757a997761e0e4.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.story > h2 {
+  text-align: center;
+  display: inline-block;
+  margin: 5px auto;
+  padding-top: 10%;
+  font-size: 4em;
+  font-family: fantasy;
+}
+
+.project-list {
+  margin: 5%;
+  display: flex;
+  flex-flow: column;
+  align-content: space-around;
+}
+
+.project-list > .project {
+
+}
+
+.project {
+  display: flex;
+  flex-flow: 1;
+  align-content: space-around;
+}
+
+.project > img {
+  margin: 2% 1%;
+}
+
+.project > .project-intro {
+  margin: 2.5%;
+  font-size: 1.5em;
+}
+
+.project-intro > *{
+  margin: 0;
+}
+
+.project-intro .github {
+  width: 100px;
+  height: 100px;
+}

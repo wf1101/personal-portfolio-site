@@ -1,0 +1,64 @@
+.header-nav > .nav > .nav-list > .home {
+  color: rgb(135, 219, 166)
+}
+
+.story > .change-button:hover ~ .story {
+  background: url("https://images.pexels.com/photos/458787/pexels-photo-458787.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+}
+
+.story {
+  height: 600px;
+  background-image: url("https://images.pexels.com/photos/355296/pexels-photo-355296.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.change-button {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  width: 20%;
+  text-align: center;
+  color: rgba(118, 159, 106, 0.5);
+  margin: 5% auto;
+}
+
+.button > img {
+  width: 100%;
+  border-radius: 50%;
+  margin: 10% auto;
+}
+
+.word-button {
+  font-size: 2.5em;
+  font-family: fantasy;
+  margin: 5% auto;
+  text-decoration: none;
+  transition: background linear 0.5s;
+  border: dotted 2px white;
+  padding-top: 30px;
+
+  width: 120px;
+  height: 80px;
+}
+
+.word-button:hover {
+  color: rgb(31, 176, 71);
+  border-radius: 30%;
+  border: groove 2px rgba(144, 123, 139, 0.59);
+}
