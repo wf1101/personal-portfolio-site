@@ -9,15 +9,9 @@
   list-style-type: none;
 }
 
-.mom-grid > section {
-  /* border: solid 3px blue; */
-}
-
 .header-nav {
-  /* position: fixed; */
   display: flex;
   width: 100%;
-  /* margin: auto 5%; */
 }
 .header-nav > .header {
   flex: 2;
@@ -30,7 +24,6 @@
 
 .header-nav > .nav {
   flex: 3;
-  /* position: fixed; */
 }
 
 .header > h2 {
@@ -43,11 +36,6 @@
   flex: 1;
   text-align: right;
   transition:
-  /* top: 30px; */
-}
-
-.logo:hover {
-
 }
 
 .logo > img {
@@ -72,7 +60,7 @@ height: 100px;
 }
 
 .nav-list a:hover{
-  color: rgb(26, 201, 133)
+  color: rgb(135, 219, 166);
 }
 
 .nav-list  li {

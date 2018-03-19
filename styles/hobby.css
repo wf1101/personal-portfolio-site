@@ -14,10 +14,8 @@
 .hobby-container {
   display: flex;
   flex-direction: row;
-  /* align-content: center; */
   flex-wrap: wrap;
   padding: 0 4px;
-
 }
 
 .column {
